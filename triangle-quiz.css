@@ -17,21 +17,6 @@ body{
     display:block;
     text-align: center;
 }
-
-label, input{
-    display: block;
-    margin: auto;
-}
-input {
-    width: 30%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-button {
-    display: block;
-    margin-top: 1rem;
-    margin: auto;
-}
 nav li {
     display:inline;
     margin-right: 10px;
@@ -39,6 +24,12 @@ nav li {
 a {
     color:white;
     text-decoration: none;
+}
+button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+   
 }
 #output {
     margin-top: 1rem;

@@ -29,8 +29,9 @@ input {
 }
 button {
     display: block;
-    margin-top: 1rem;
     margin: auto;
+    margin-top: 1rem;
+    
 }
 nav li {
     display:inline;
