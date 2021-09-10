@@ -14,9 +14,9 @@ body{
 .container {
     width : 60%;
     margin:auto;
-    display:block;
-    text-align: center;
+    display:block; 
 }
+
 nav li {
     display:inline;
     margin-right: 10px;
@@ -25,13 +25,19 @@ a {
     color:white;
     text-decoration: none;
 }
+h1 {
+    text-align: center;
+}
 button {
     display: block;
     margin: auto;
     margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
    
 }
 #output {
     margin-top: 1rem;
     font-size: x-large;
+    text-align: center;
 }
