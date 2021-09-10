@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    width : 60%;
+    margin:auto;
+    display:block;
+    text-align: center;
+}
+
+label, input{
+    display: block;
+    margin: auto;
+
+}
+input {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+button {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+}
+
+#output {
+    margin-top: 1rem;
+    font-size: large;
+}
