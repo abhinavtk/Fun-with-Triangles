@@ -8,9 +8,8 @@ function sumOfSquares(a, b){
 
 function findHypotenuse(){
     const sumofSq = sumOfSquares(angles[0].value, angles[1].value);
-    const hypotenuse = Math.sqrt(sumofSq);
-    const hyp = hypotenuse.toFixed(2);
-    output.innerText = "Hypotenuse length is "+ hyp+ " units.";
+    const hypotenuse = Math.sqrt(sumofSq).toFixed(2);
+    output.innerText = "Hypotenuse length is "+ hypotenuse+ " units.";
 }
 
 findHypotenuseBtn.
