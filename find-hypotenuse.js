@@ -13,4 +13,5 @@ function findHypotenuse(){
     output.innerText = "Hypotenuse length is "+ hyp+ " units.";
 }
 
-findHypotenuseBtn.addEventListener('click', findHypotenuse);
+findHypotenuseBtn.
+addEventListener('click', findHypotenuse);
