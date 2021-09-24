@@ -9,12 +9,18 @@ function calculateScore() {
     let index = 0;
     const formResults = new FormData(quizForm);
     for(let value of formResults.values()){
+        console.log(value);
         if (value===correctAnswers[index]){
             score+=1;
         }
         index+=1;
     }
-    output.innerText = "Your score is "+score;
+    if (index<correctAnswers.length){
+        output.innerText = "Please answer all questons.";
+    }
+    else{
+        output.innerText = "Your score is "+score;
+    } 
 }
 
 submitBtn.addEventListener('click', calculateScore);
